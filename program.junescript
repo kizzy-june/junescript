@@ -1,0 +1,15 @@
+PRINT This is an example!
+PAINT
+TITLE Example window
+TEXT Example text
+COLOUR #FF505F
+WAIT 100
+SHOWWIN
+WAIT 2750
+TEXT :3
+WAIT 2750
+WAITFORAUDIO
+TITLE no
+TEXT no
+PLAYSOUND example_sound.wav
+EXIT 0

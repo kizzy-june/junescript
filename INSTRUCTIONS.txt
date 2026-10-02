@@ -1,0 +1,26 @@
+PAINT: Prints the flushed face emoji to the console.
+WRITEVAR1: Writes a number to the first 64 bit integer.
+WRITEVAR2: Writes a number to the second 64 bit integer.
+ADD: Adds var1 and var2 together.
+SUB: Subtracts and uses var1 and var2 as input.
+MUL: Multiplies var1 by var2.
+DIV: Divides var1 by var2.
+SQRT: Reserved
+RES: Prints the result of ADD, SUB, MUL or DIV to the console.
+ERR: Throws an error.
+EX: Throws an exception.
+EXIT: Exits the program and shuts down the JVM (exit code can't be higher than 2147483647 or lower than -2147483648).
+GETPROP: Prints the specified system property to the console.
+PRINT: Prints a string to the console.
+PRINTERR: Same as print but uses System.err.println().
+SHOWWIN: Shows the JFrame window.
+HIDEWIN: Hides the JFrame window.
+ALLOWEDIT: Allows user input to the text field.
+NOEDIT: Does the opposite of ALLOWEDIT.
+TITLE: Sets the title of the JFrame window.
+TEXT: Sets the text of the text field inside the JFrame window.
+WAIT: Holds the current thread for the amount of milliseconds specified.
+WAITFORAUDIO: Makes the script engine wait for the sound to complete before executing the next instruction.
+NOWAITFORAUDIO: Makes the script engine immediately execute the next instruction without waiting for the current sound to complete.
+PLAYSOUND: Plays a sound file (I only tested this with 16 bit PCM WAV files).
+STOPAUDIO: Stops all currently playing sound files.
