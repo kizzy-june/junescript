@@ -1,5 +1,6 @@
 # Junescript
 **The kizzy-june programming language 👍**
+<br>
 Junescript is a programming language based on Java made to be easy.
 ### Installation
 > Download the jarfile in [Releases](https://github.com/kizzy-june/junescript/releases)
